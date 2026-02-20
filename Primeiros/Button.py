@@ -16,5 +16,9 @@ button2 = Button(janela, text="Mensagem",
 command= exibirMensagem, font="Arial 40")
 button2.pack()
 
+buttonSair = Button(janela, text="Sair",
+command= janela.destroy, font="Arial 40")
+buttonSair.pack()
+
 
 janela.mainloop()
