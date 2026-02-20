@@ -1,15 +1,20 @@
 from tkinter import *
+from tkinter import messagebox
 
 janela = Tk()
 janela.geometry("600x600")
 
-instrucao = Label(text="\nBem-vindo", font="Arial 40")
-instrucao.pack()
+janela.title("Button")
 
-instrucao_2 = Label(text="\nTestanto Interface", font="Arial 40")
-instrucao_2.pack()
+button = Button(janela, text="Enviar", font="Arial 40")
+button.pack()
 
-janela.title("interface")
+def exibirMensagem():
+     messagebox.showinfo("Mensagem", "testando" )
+
+button2 = Button(janela, text="Mensagem",
+command= exibirMensagem, font="Arial 40")
+button2.pack()
 
 
 janela.mainloop()
