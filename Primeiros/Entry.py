@@ -5,7 +5,7 @@ janela.geometry("600x600")
 
 
 
-janela.title("interface")
+janela.title("Entry")
 
 
 janela.mainloop()
