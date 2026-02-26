@@ -1,7 +1,7 @@
 from tkinter import *
 
 janela = Tk()
-janela.geometry("600x600")
+janela.geometry("850x850")
 
 rotulo1 = Label(janela, text="python", relief="flat", background="blue", foreground="white", font="Arial 40")
 rotulo1.pack()

@@ -21,4 +21,6 @@ command= janela.destroy, font="Arial 40")
 buttonSair.pack()
 
 
+
+
 janela.mainloop()

@@ -1,17 +1,17 @@
 from tkinter import *
 
 janela = Tk()
-janela.geometry("850x850")
+janela.geometry("400x400")
 
 for linha in range(5):
     for coluna in range(3):
 
         tabela = Frame(
             master=janela,
-            relief="raised",
+            relief="sunken",
             borderwidth=1
         )
-        tabela.grid(row=linha, column=coluna)
+        tabela.grid(row=linha, column=coluna, padx=5, pady=5)
 
         label = Label(
             master=tabela,
