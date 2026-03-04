@@ -10,7 +10,9 @@ textoEntrada = StringVar()
 operacao = Entry(janela, font=("Arial 40 bold"),
                  textvariable=textoEntrada,
                  border=5,
-                 background="#BBB0").grid(row=1, columnspan=5, pads= 10, pady=)
+                 background="#BBB",
+                 foreground="black",
+                 ).grid(row=1, columnspan=5, padx= 10, pady=15)
 
 
 
