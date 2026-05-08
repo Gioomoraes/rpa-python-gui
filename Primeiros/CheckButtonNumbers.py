@@ -7,6 +7,7 @@ janela.geometry("600x600")
 
 janela.title("CheckButton 2")
 
+
 labelInformation = Label(janela, text="selecione a opção",
                          foreground="blue",
                          font=("Arial", 25)).pack()
@@ -17,6 +18,11 @@ valorAntigo = 0
 def funcaoSomar():
 
     global total
+    global valorAntigo
+
+    valorAntigo = total
+
+    total += int(varNumber.get())
 
 varNumber = IntVar()
 
