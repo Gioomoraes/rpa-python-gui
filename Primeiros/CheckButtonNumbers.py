@@ -24,6 +24,8 @@ def funcaoSomar():
 
     total += int(varNumber.get())
 
+    messagebox.showinfo("Mensagem", valorAntigo, " + ", varNumber.get(), " = ", total)
+
 varNumber = IntVar()
 
 checkNumber5 = Checkbutton(janela, text="5",
