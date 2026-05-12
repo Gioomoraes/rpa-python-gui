@@ -22,8 +22,8 @@ def funcaoSomar():
 
     valorAntigo = total
 
-    total +=
-    print( valorAntigo, " + ", varNumber.get(), " = ", total)
+    total += int(varNumber5.get()) + int(varNumber10.get()) + int(varNumber15.get())
+    print( valorAntigo, " : ",  total)
 
 varNumber5 = IntVar()
 varNumber10 = IntVar()
