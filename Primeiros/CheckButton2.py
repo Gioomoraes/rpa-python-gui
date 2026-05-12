@@ -5,7 +5,7 @@ janela = Tk()
 janela.geometry("600x600")
 
 
-janela.title("CheckButton 2")
+janela.title("CheckButton 3")
 
 
 labelInformation = Label(janela, text="selecione a opção",
@@ -22,32 +22,31 @@ def funcaoSomar():
 
     valorAntigo = total
 
-    total += int(varNumber.get())
-
-    #messagebox.showinfo("Mensagem", valorAntigo, " + ", varNumber.get(), " = ", total)
+    total +=
     print( valorAntigo, " + ", varNumber.get(), " = ", total)
 
-varNumber = IntVar()
+varNumber5 = IntVar()
+varNumber10 = IntVar()
+varNumber15 = IntVar()
 
-checkNumber5 = Checkbutton(janela, text="5",
-                        variable=varNumber,
+checkNumber5 = Checkbutton(janela, text="Número 5",
+                        variable=varNumber5,
                         font=("Arial", 25),
                         onvalue=5,
                         offvalue= 0,
                         command=funcaoSomar).pack()
 
-checkNumber10 = Checkbutton(janela, text="10",
-                        variable=varNumber,
+checkNumber10 = Checkbutton(janela, text="Número 10",
+                        variable=varNumber10,
                         font=("Arial", 25),
                         onvalue=10,
                         offvalue= 0,
                         command=funcaoSomar).pack()
 
-checkNumber15 = Checkbutton(janela, text="15",
-                        variable=varNumber,
+checkNumber15 = Checkbutton(janela, text="Número 15",
+                        variable=varNumber15,
                         font=("Arial", 25),
                         onvalue=15,
                         offvalue= 0,
                         command=funcaoSomar).pack()
-
 janela.mainloop()
