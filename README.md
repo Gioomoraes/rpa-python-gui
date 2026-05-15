@@ -1,1 +1,12 @@
-Projeto de automação RPA em Python com interface gráfica (GUI), focado em otimização de processos e automação de tarefas repetitivas.
+# 🤖 RPA Python GUI
+
+Projeto de automação de processos (RPA) desenvolvido em Python com interface gráfica (GUI).
+
+---
+
+## 🚀 Tecnologias utilizadas
+
+- Python
+- Tkinter
+- PyAutoGUI
+- Automação de Processos (RPA)
